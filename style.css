@@ -1,0 +1,44 @@
+/* Apply styles using different selectors */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Class selector */
+.title {
+    color: #3498db;
+    font-size: 2rem;
+}
+
+/* ID selector */
+#description {
+    font-size: 1.2rem;
+    color: #2c3e50;
+    margin: 10px 0;
+}
+
+/* Styling an image */
+.styled-image {
+    width: 300px;
+    border: 5px solid #3498db;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+/* Button styling */
+.btn {
+    background-color: #e74c3c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #c0392b;
+}
